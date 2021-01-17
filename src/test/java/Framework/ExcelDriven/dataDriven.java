@@ -17,7 +17,7 @@ public class dataDriven {
 
 	public ArrayList<String> getData(String testcasename) throws Exception {
 
-		FileInputStream fis = new FileInputStream("C://Users//hphp//Desktop//Book1.xlsx");
+		FileInputStream fis = new FileInputStream("");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		int sheets = workbook.getNumberOfSheets();
 		ArrayList<String> a = new ArrayList<String>();
